@@ -1,0 +1,31 @@
+<install>
+
+	<version>0.1</version>
+	<author>Paulo Barcelos</author>
+	<url></url>
+    
+    <requires>
+    </requires>
+		
+	<add>	
+		<src>
+			<folder name="addons/ofxSmartCapture/src">			
+				<file>../../../addons/ofxSmartCapture/src/ofxSmartCapture.h</file>
+				<file>../../../addons/ofxSmartCapture/src/ofxSmartCapture.cpp</file>
+			</folder>
+            <folder name="addons/ofxSmartCapture/libs/ofxSmartCaptureVideoGrabber">			
+				<file>../../../addons/ofxSmartCapture/libs/ofxSmartCaptureVideoGrabber/ofxSmartCaptureVideoGrabber.h</file>
+				<file>../../../addons/ofxSmartCapture/libs/ofxSmartCaptureVideoGrabber/ofxSmartCaptureVideoGrabber.cpp</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxSmartCapture/src</path>
+            <path>../../../addons/ofxSmartCapture/src/libs/ofxSmartCaptureVideoGrabber</path>
+		</include>
+		
+		<link>
+		</link>
+	</add>
+	
+</install>
